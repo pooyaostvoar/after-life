@@ -1,11 +1,16 @@
 import React from "react";
 import ProfileHeader from "./header/ProfileHeader";
+import Posts from "./posts/Posts";
 
-const Profile = () => {
+interface Props {
+  name: string;
+}
+
+const Profile = ({ name }: Props) => {
   return (
     <>
-      <ProfileHeader />
-      <div>posts</div>
+      <ProfileHeader name={name} />
+      <Posts />
     </>
   );
 };
