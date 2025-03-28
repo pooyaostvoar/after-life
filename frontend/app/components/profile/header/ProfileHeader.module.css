@@ -1,0 +1,14 @@
+.profilePic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    background-image: url("https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw");
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin-bottom: 8px;
+    align-items: center;
+}

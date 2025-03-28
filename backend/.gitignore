@@ -1,0 +1,36 @@
+node_modules/
+npm-debug.log
+yarn-error.log
+.DS_Store
+.env
+.env.test
+coverage/
+dist/
+build/
+logs/
+*.log
+*.sqlite
+debug.log
+dump.rdb
+.vscode/
+.idea/
+*.swp
+
+# Ignore local environment settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore dependency directories
+/.pnp
+.pnp.js
+
+# Ignore IDE and editor files
+/.vscode
+/.idea
+*.sublime-workspace
+
+# Ignore OS-specific files
+Thumbs.db
+Desktop.ini
